@@ -186,6 +186,7 @@ main {
 .modal-body {
   padding: 15px 8%;
   margin: 15px auto;
+  
 }
 
 label {
@@ -527,3 +528,24 @@ footer {
   }
 }
 
+#merci-message {
+  color: white;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.merci {
+  display: none;
+  height: 710px;
+}
+
+.errorStyle {
+  font-size: 10px;
+  color: #FF4E60;
+  font-weight: 400;
+  font-family: Roboto;
+  display: none;
+}
