@@ -528,6 +528,8 @@ footer {
   }
 }
 
+/* Modal message */
+
 #merci-message {
   color: white;
   text-align: center;
@@ -535,12 +537,23 @@ footer {
   font-size: 36px;
   font-style: normal;
   font-weight: 400;
+  padding-top: 50%;
+  padding-left: 10%;
+  padding-right: 10%;
+  width:auto;
 }
 
 .merci {
   display: none;
   height: 710px;
 }
+
+
+#button-close {
+padding-top: 60%;
+}
+
+/* Error messages style */
 
 .errorStyle {
   font-size: 10px;

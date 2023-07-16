@@ -99,7 +99,7 @@
                   id="email"
                   name="email"
                   
-                <br>
+                /><br>
               </div>
               <p id="errorEmail" class="errorStyle">Entrez correctement votre email</p>
 
@@ -226,15 +226,20 @@
               />
             </form>
           </div>
+          <!-- Added p and button for second modal -->
+
           <div class="merci">
             <p id="merci-message">Merci pour votre Inscription</p>
-            <input
+            <div                 id="button-close"
+            >
+              <input
                 class="btn-submit"
                 type="submit"
                 class="button"
                 value="Fermer"
                 onclick="buttonClose()"
               />
+            </div>
           </div>
         </div>
         
